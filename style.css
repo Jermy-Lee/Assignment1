@@ -36,3 +36,31 @@
   .green{
     color: #7ecc74
   }
+  
+  .active {
+    color: #04AA6D;
+    
+  }
+
+  .link {
+    color: white;
+  }
+
+  .logo {
+    display: flex;
+    max-width: 65px;
+    max-height: 65px;
+    margin: none;
+    position: absolute;
+    align-items: center;
+    top: 2px;   
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;    
+  }
