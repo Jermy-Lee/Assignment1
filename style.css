@@ -1,132 +1,79 @@
 .dark {
     background-color: black;
     color: white;
-  }
+}
   
-  .imgbox {
+.imgbox {
               display: flex;
               height: 100%;
           }
-  .center-fit {
-              max-width: 100%;
-              max-height: 100%;
+.center-fit {
+              max-width: 60%;
+              max-height: 60%;
               margin: auto;
           } 
+.center-fit-plus {
+            max-width: 70%;
+            max-height: 70%;
+            margin: auto;
+            margin-top: 30px;
+}    
+            
   .green{
-    color: #7ecc74
+    color: #4acb13
   }
-@media screen and (min-width: 400px) {  
-  .font-heading{
-    font-family: 'Jura', sans-serif;
-    font-size: 40px;
+  ul {
+    list-style: none;
+    margin-right: 45px;
   }
-  
-  .font{
-    font-family: 'Jura', sans-serif;
-    font-size: 20px;
-  }
-  
-  .font-section-heading{
-    font-family: 'Jura', sans-serif;
-    font-size: 30px;
-  }
-  
-  .font-section{
-    font-family: 'Jura', sans-serif;
-    font-size: 25px;
-  }
-  .button {
-    color: black;
-    background-color: white;
-    padding: 8px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  .active-page {
-    background-color: #4acb13;
-    color: black;
-    padding: 8px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-  .flex-logo {
-    display: flex;
-    max-width: 75px;
-    max-height: 75px;
-    margin: none;
-    position: absolute;
-    align-items: center;
-    top: 2px;   
-  }
-
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: flex-end ;
-    width: 100%;
-    font-family: 'Jura', sans-serif;
-    font-size: 25px;    
-  }
-}
-
-
 
 .font-heading{
   font-family: 'Jura', sans-serif;
-  font-size: 20px;
+  font-size: 45px;
 }
 
 .font{
   font-family: 'Jura', sans-serif;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .font-section-heading{
   font-family: 'Jura', sans-serif;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .font-section{
   font-family: 'Jura', sans-serif;
-  font-size: 16px;
+  font-size: 25px;
+ 
 }
 .button {
   color: black;
   background-color: white;
-  padding: 4px 8px;
+  padding: 8px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
 }
 .active-page {
   background-color: #4acb13;
   color: black;
-  padding: 4px 8px;
+  padding: 8px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
 }
 
 .flex-logo {
   display: flex;
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 75px;
+  max-height: 75px;
   margin: none;
   position: absolute;
   align-items: center;
@@ -141,4 +88,87 @@
   width: 100%;
   font-family: 'Jura', sans-serif;
   font-size: 25px;    
+}
+
+
+
+
+@media screen and (max-width: 400px) {  
+  ul {
+    list-style: none;
+    padding-left:0;
+    margin-right: 0;
+  }
+.center-fit-plus {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  margin-top: 25px;
+}    
+  .font-heading{
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+  }
+  
+  .font{
+    font-family: 'Jura', sans-serif;
+    font-size: 14px;
+  }
+  
+  .font-section-heading{
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+  }
+  
+  .font-section{
+    font-family: 'Jura', sans-serif;
+    font-size: 16px;
+  }
+  .button {
+    color: black;
+    background-color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .active-page {
+    background-color: #4acb13;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .flex-logo {
+    display: flex;
+    max-width: 40px;
+    max-height: 40px;
+    margin: none;
+    position: absolute;
+    align-items: center;
+    top: 2px;   
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end ;
+    width: 100%;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;    
+  }
+  .center-fit {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+  }
 }
