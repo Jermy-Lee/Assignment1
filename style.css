@@ -32,6 +32,11 @@
   font-size: 45px;
 }
 
+.font-about{
+  font-family: 'Jura', sans-serif;
+  font-size: 35px;
+}
+
 .font{
   font-family: 'Jura', sans-serif;
   font-size: 20px;
@@ -47,6 +52,7 @@
   font-size: 25px;
  
 }
+
 .button {
   color: black;
   background-color: white;
@@ -89,6 +95,11 @@
   font-family: 'Jura', sans-serif;
   font-size: 25px;    
 }
+form {
+  font-family: 'Jura', sans-serif;
+  font-size: 20px;}
+
+
 
 
 
@@ -99,6 +110,7 @@
     padding-left:0;
     margin-right: 0;
   }
+
 .center-fit-plus {
   max-width: 100%;
   max-height: 100%;
@@ -110,6 +122,11 @@
     font-size: 20px;
   }
   
+  .font-about{
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+  }
+
   .font{
     font-family: 'Jura', sans-serif;
     font-size: 14px;
