@@ -12,6 +12,10 @@
               max-height: 60%;
               margin: auto;
           } 
+.center-vid {
+            display: flex;
+            justify-content: center;
+        } 
 .center-fit-plus {
             max-width: 70%;
             max-height: 70%;
@@ -114,10 +118,7 @@ form {
   margin: 8px 0;
   box-sizing: border-box;
 }
-input[type='radio']:checked:after {
-  position: relative;
-  background-color: #4acb13;
-}
+
 .submit{
   padding: 8px 20px;
   text-align: center;
