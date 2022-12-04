@@ -1,2 +1,5 @@
-# Assignment1
-Making a website for casual Call of Duty players so they are familiar with the game.
+# Call of Duty: Gun Guide
+This project is a website named Call of Duty: Gun Guide. Its goal is to introduce new players to the newest Call of Duty game, Modern Warfare II. It also acts as a guide for creating the best set-ups for the best guns in the game. There are many websites that do this but what makes Gun Guide unique is that it's the only one that provides statistics to back up its claims. 
+
+## Design Process
+The project's focus is the game Modern Warfare II. In Modern Warfare II, if you are not using the best guns with the best attachments, it would be extremely hard to perform well in the game against players who are. As a casual player, I want to be able to compete with other players who are already familiar with the game. Hence, the project was created for these casual players or newer players so that they can achieve a level playing field with more serious players. The reason why my website is the best way for them to do this is beacuse of the accuracy and depth of the information provided. 
